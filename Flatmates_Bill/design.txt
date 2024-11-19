@@ -1,0 +1,10 @@
+Title: Flatmates Bill
+Description : An app that gets the details of Flatmates along with the
+no: of days they have stayed in the house and the Bill amount to return the splitted Bill amount in between
+them. It also generates an PDF document stating the names of the flatmates with their respective bill amounts
+to be paid.
+
+Objects:
+Bill - amount, period
+Flatmate - name, days_in_house, pays(bill)
+PdfReport - filename, generate(flatemate1, flatmate2, bill)
